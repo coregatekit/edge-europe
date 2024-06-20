@@ -8,7 +8,7 @@ type Data = {
 };
 
 export const getServerSideProps = (async () => {
-  const response = await fetch('http://localhost:3000/api/ip');
+  const response = await fetch('https://edgeeurope.coregate.dev/api/ip');
   if (!response.ok) {
     const error = await response.json();
     return {
