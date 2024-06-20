@@ -1,7 +1,7 @@
 import { regionMapping } from '@/constant';
 import { NextApiRequest, NextApiResponse } from 'next';
 
-export const runtime = 'node';
+export const runtime = 'nodejs';
 export const fetchCache = 'force-no-store';
 
 type Data = {
